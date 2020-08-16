@@ -1,0 +1,82 @@
+.story {
+   margin: 10% auto; 
+   padding: 50px;
+   width: 72%;
+   background-color: #dadada;
+   h1 {
+        line-height: 48px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+   }
+   .detail {
+       display: flex;
+       justify-content: space-between;
+       .author_details {
+            color: rgba(117, 117, 117, 1);
+            display: flex;
+            justify-content: left;
+            .photo {
+                padding: 10px;
+                img {
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50px;
+                }
+            }
+            .data {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 5px;
+                span {
+                    display: block;
+                    margin: 3px;
+                }
+                .clm_1 {
+                    display: flex;
+                    margin: 3px;
+                    .name {
+                        font-size: 16px;
+                        margin: 5px 10px 0 0;
+                        color: black;
+                    }
+                    .follow {
+                        cursor: pointer;
+                        font-size: 13px;
+                        border-radius: 10px;
+                        padding: 5px;
+                        border: 1px solid gray;
+                    }
+                }
+                
+                .time {
+                    font-size: 14px;
+                }
+            }
+        }
+        .social_icons {
+            display: flex;
+            img, svg {
+                margin: 10px;
+                width: 30px;
+                height: 30px;
+                cursor: pointer;
+            }
+        }
+   }
+   #content {
+       line-height: 30px;
+        h4 {
+            text-transform: capitalize;
+        }
+        figure {
+            display: none;
+            margin: 0;
+            img {
+                width: 100%;
+            }
+        }
+        a {
+            color: black;
+        }
+   }
+}

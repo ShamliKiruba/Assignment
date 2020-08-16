@@ -1,0 +1,40 @@
+.list {
+    .item {
+        margin: 30px;
+    }
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    border: 1px solid #572f90;
+    border-radius: 5px;
+    background-color: #9478bb;
+    width: 50%;
+    margin: 8% auto 0 auto;
+    button {
+        text-transform: uppercase;
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+        &:not(:last-child) {
+            border-right: 1px solid #ccc;
+        }
+        &:hover {
+            background-color: #562f90;
+            color: #EF6D3B;
+        }
+    }
+    .active {
+        background-color: #eceaea;
+    }
+    
+}

@@ -1,0 +1,1 @@
+export const TABS = ['backchannel', 'economics', 'matter'];
